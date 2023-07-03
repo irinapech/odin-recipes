@@ -1,13 +1,17 @@
 * {
     text-align: center;
 }
-h1 
+
+h1, h2 
 {
-    color: red;
+    color: #2c421d;
 }
-* {
-    background-color: hsla(120, 60%, 70%, 0.3);
+
+.theList {
+    list-style-position: inside;
+    text-align: right;
 }
+
 html {
     -webkit-text-size-adjust: 100%;
     font-feature-settings: normal;
@@ -17,6 +21,11 @@ html {
     -o-tab-size: 4;
     tab-size: 4;
 }
+
 img {
     height: auto;
+}
+
+* {
+    background-color: #b09e75;
 }
